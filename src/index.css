@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "League Spartan", sans-serif;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+}
